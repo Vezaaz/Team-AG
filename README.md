@@ -1,2 +1,3 @@
 # Tamme-Hood
-Best web developers on planet Earth
+Web Application Development course
+Team members: Sander Zirel, Marten Tiisler, Kristo Kontse
