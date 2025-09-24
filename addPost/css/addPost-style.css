@@ -1,0 +1,43 @@
+textarea {
+    resize: none;
+    width: 180px;
+    height: 90px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;            
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    background-color: lightgray;
+    padding: 30px;
+    border-radius: 8px;
+    width: 250px;
+    height: 250px;
+}
+
+.form.row {
+    display: flex;
+    flex-direction: row;
+    align-items: top;
+    margin-bottom: 15px;
+}
+.form.row label {
+    width: 90px;             
+    margin-right: 10px;
+    text-align: right;       
+}
+
+.selectFile{
+    align-content: right;  /*ei tööta prg */
+}
+.createPost {
+    background-color: rgb(0, 65, 163);
+    color: white;
+    
+}
