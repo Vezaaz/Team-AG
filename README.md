@@ -1,4 +1,4 @@
-# Tamme-Hood
+# Team-AG
 Web Application Development course
 
 Team members: Sander Zirel, Marten Tiisler, Kristo Kontse
