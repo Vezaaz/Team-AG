@@ -9,7 +9,7 @@
     </head>
     <body> 
         <section class="container">
-            <form action="#" method="post" enctype="multipart/form-data">
+            <form action="#" method="post" enctype="multipart/form-data" onsubmit="redirectToIndex(event)">
                 <div class="form row">
                     <label for="postBody">Post body</label>
                     <textarea id="postBody" name="postBody"></textarea>
@@ -17,13 +17,21 @@
 
                 <div class="form row">
                     <label for="selectFile">Select file</label>
-                    <input type="file" id="selectFile" name="selectFile">
+                    <input type="file" id="selectFile" name="selectFile" class="file-input">
                 </div>
+
                 <div class="form row">
                     <button type="submit" class="createPost">Create post</button>                   
                 </div>
             </form>
         </section>
         
+        <script>
+            function redirectToIndex(event) {
+            event.preventDefault();
+            window.location.href = "..\\index-page\\HTML\\index.html"; // not working right now
+            }
+        </script>
+
     </body>
 </html>
