@@ -1,9 +1,10 @@
 body {
-    display: flex;
-    align-items: center;
-    justify-content: center;            
+    margin: 0;
+    padding: 10px;
+    display: flex;            
     min-height: 90vh;
     background: #f2f2f2;
+    flex-direction: column;
 }
 
 .login-container {                            /* Class Selector */
@@ -13,10 +14,11 @@ body {
     width: 250px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     gap: 5px;
     box-shadow: 0px 0px 4px rgb(53, 52, 52);
-
+    margin: auto;
 }
 
 .login-container h1,

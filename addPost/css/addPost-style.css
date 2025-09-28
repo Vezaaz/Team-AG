@@ -6,19 +6,22 @@ textarea {
 
 body {
     margin: 0;
-    padding: 0;
+    padding: 10px;
     display: flex;
-    justify-content: center;            
-    align-items: center;
     min-height: 100vh;
+    flex-direction: column;
 }
 
 .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: lightgray;
     padding: 30px;
     border-radius: 8px;
     width: 250px;
     height: 250px;
+    margin: auto;
 }
 
 
