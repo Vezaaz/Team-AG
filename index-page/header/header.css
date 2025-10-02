@@ -1,29 +1,41 @@
 header {
     width: 100%;
+    max-width: 100vw;           /* ei lase minna laiemaks kui ekraan */
+    overflow-x: hidden;         /* kaitse horisontaalse scrolli vastu */
+    
     background-color: lightgray;
     display: flex;
+    flex-wrap: wrap;            /* lubab sisu murduda mitmele reale väiksel ekraanil */
     align-items: center;
-    border-radius: 15px;
+    justify-content: space-between; /* hoiab nav vasakul, pilt paremal */
+    
+    border-radius: 1rem;
+    padding: 1vw 2vw;
+    box-sizing: border-box;     /* padding arvestatakse laiusesse */
 }
 
-.nav{
-    margin-top: 13px;
-    padding: 35px;
+.nav {
     display: flex;
+    flex-wrap: wrap;            /* nupud võivad murrata uuele reale */
+    gap: 1vw;
+    margin: 0;
+    padding: 0;
+    flex: 1;                    /* nav võtab ülejäänud ruumi */
 }
 
-ul{
+ul {
     list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
-.picture{
-    margin-left: auto;
+.picture {
+    margin-left: auto;          /* viib pildi paremale */
 }
-.picture img{
-    margin-left: auto;
-    height: 100px;
-    width: 100px;
-    margin-right: 20px;
+
+.picture img {
+    width: clamp(50px, 9vw, 90px);  /* ei lase minna liiga suureks ega liiga väikeseks */
+    height: clamp(50px, 9vw, 90px);
     border-radius: 50%;
     background-color: #6f8aa762;
     object-fit: cover;
@@ -33,24 +45,20 @@ ul{
 
 .nav a {
     text-decoration: none;
-    color: inherit;      
-    padding: 15px;
-    font-size: 40px;
-    text-align: center;
-
-    margin: 10px;
-    border: 1px solid black;
-    box-shadow: 1px 1px 2px rgb(53, 52, 52);
-    border-radius: 10px;
     color: white;
     background-color: rgb(18, 75, 162);
-    transition: all 0.3s ease;
+    border: 1px solid black;
+    border-radius: 0.5rem;
+
+    font-size: clamp(14px, 2.5vw, 24px); /* skaleeruv, aga piiridega */
+    padding: clamp(6px, 1vw, 12px) clamp(10px, 2vw, 20px);
+    box-shadow: 1px 1px 2px rgb(53, 52, 52);
+    
+    transition: background-color 0.3s ease;
 }
 
 .nav a:hover {
     background-color: rgb(8, 49, 112);
 }
 
-.icon{
-    text-align: right;
-}
+
