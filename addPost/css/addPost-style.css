@@ -20,8 +20,11 @@ body {
     background-color: lightgray;
     padding: 30px;
     border-radius: 8px;
-    width: 250px;
-    height: 250px;
+    width: 100%;
+    max-width: 400px;
+    min-height: 300px;
+    height: 100%;
+    box-sizing: border-box;
     margin: auto;
 }
 
@@ -73,6 +76,10 @@ label ~ input {
 }
 
 @media (max-width: 600px) {
+    textarea,
+    .file-input {
+    width: 100%;
+}
     .container {
         width: 90%;
         height: auto;
@@ -92,9 +99,4 @@ label ~ input {
         width: 100%;
         text-align: center;
     }
-}
-textarea,
-.file-input {
-    width: 100%;
-    max-width: 180px;
 }
