@@ -54,6 +54,18 @@ main {
     object-fit: cover;
 }
 
+.author-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.author-name {
+    font-weight: bold;
+    font-size: 15px;
+    color: black; /* must tekst */
+}
+
 div span {                                  /*Descendant selector*/   
     font-size: 15px;
     color: gray;

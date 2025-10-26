@@ -1,0 +1,84 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "author": "Allan Loon",
+      "date": "2024-09-01T09:15:00",
+      "text": "My new school",
+      "image": "../pictures/delta.jpg",
+      "likes": 23
+    },
+    {
+      "id": 2,
+      "author": "Mari Tamm",
+      "date": "2025-10-02T14:50:00",
+      "text": "As a reminder to everybody, our discussion time slot is at 14:50",
+      "image": null,
+      "likes": 12
+    },
+    {
+      "id": 3,
+      "author": "Kristo Viiper",
+      "date": "2025-10-01T18:30:00",
+      "text": "They should build a gym in Delta 🤔",
+      "image": null,
+      "likes": 31
+    },
+    {
+      "id": 4,
+      "author": "Anna Mets",
+      "date": "2025-09-28T10:10:00",
+      "text": "I am very jealous of that guy who got to visit Paris!!! 😞😞😞",
+      "image": null,
+      "likes": 7
+    },
+    {
+      "id": 5,
+      "author": "Markus Jõgi",
+      "date": "2024-09-27T16:25:00",
+      "text": "I just visited Paris! The Eiffel tower was so cool!",
+      "image": "../pictures/teletorn.jpg",
+      "likes": 58
+    },
+    {
+      "id": 6,
+      "author": "Laura Rebane",
+      "date": "2025-08-10T20:00:00",
+      "text": "Sunset by the beach 🌅",
+      "image": null,
+      "likes": 102
+    },
+    {
+      "id": 7,
+      "author": "Karl Saar",
+      "date": "2025-07-22T08:45:00",
+      "text": "Coding at 3AM again… 💻☕",
+      "image": null,
+      "likes": 54
+    },
+    {
+      "id": 8,
+      "author": "Mart Diisel",
+      "date": "2025-05-03T11:30:00",
+      "text": "Exam season is upon us 😩📚",
+      "image": null,
+      "likes": 16
+    },
+    {
+      "id": 9,
+      "author": "Eveli Kask",
+      "date": "2024-12-24T19:45:00",
+      "text": "Merry Christmas everyone! 🎄🎁",
+      "image": null,
+      "likes": 78
+    },
+    {
+      "id": 10,
+      "author": "Timo Väli",
+      "date": "2025-03-15T13:00:00",
+      "text": "Delta hackathon was amazing! Learned so much from others",
+      "image": null,
+      "likes": 94
+    }
+  ]
+}
