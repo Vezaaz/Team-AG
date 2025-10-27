@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <title>Main page</title>
     <link rel="stylesheet" href="..\header\header.css">
-    <link rel="stylesheet" href="..\CSS\index.css">'
+    <link rel="stylesheet" href="..\CSS\index.css">
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <script src="/data/posts.js"></script>
 </head>
@@ -15,7 +15,16 @@
             <li><a href="..\HTML\index.html">Home</a></li>
             <li><a href="..\..\addPost\html\addPost.html">addPost</a></li>
         </ul>
-        <a class="picture" href="..\..\login\html\login.html"><img src="..\pictures\profile.png" alt="Profile picture"></a>
+        <div class="dropdown" id="profileDropdown">
+    <a class="picture" href="javascript:void(0);">
+      <img src="..\pictures\profile.png" alt="Profile picture">
+    </a>
+    <div class="dropdown-content">
+      <a>John Doe</a>
+      <a>john.doe@ut.ee</a>
+      <a href="../../login/html/login.html">logout</a>
+    </div>
+        </div>
     </header>
     
     <main>
@@ -31,5 +40,6 @@
 
     <footer id="footer-box">
     </footer>
+<script src="..\..\data\dropdown.js"></script>
 </body>
 </html>

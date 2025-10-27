@@ -1,26 +1,25 @@
 header {
     width: 100%;
-    max-width: 100vw;           /* ei lase minna laiemaks kui ekraan */
-    overflow-x: hidden;         /* kaitse horisontaalse scrolli vastu */
+    max-width: 100vw;           
     
     background-color: lightgray;
     display: flex;
-    flex-wrap: wrap;            /* lubab sisu murduda mitmele reale väiksel ekraanil */
+    flex-wrap: wrap;    
     align-items: center;
-    justify-content: space-between; /* hoiab nav vasakul, pilt paremal */
+    justify-content: space-between;
     
     border-radius: 1rem;
     padding: 1vw 2vw;
-    box-sizing: border-box;     /* padding arvestatakse laiusesse */
+    box-sizing: border-box;    
 }
 
 .nav {
     display: flex;
-    flex-wrap: wrap;            /* nupud võivad murrata uuele reale */
+    flex-wrap: wrap;       
     gap: 1vw;
     margin: 0;
     padding: 0;
-    flex: 1;                    /* nav võtab ülejäänud ruumi */
+    flex: 1;              
 }
 
 ul {
@@ -30,11 +29,11 @@ ul {
 }
 
 .picture {
-    margin-left: auto;          /* viib pildi paremale */
+    margin-left: auto;      
 }
 
 .picture img {
-    width: clamp(50px, 9vw, 90px);  /* ei lase minna liiga suureks ega liiga väikeseks */
+    width: clamp(50px, 9vw, 90px); 
     height: clamp(50px, 9vw, 90px);
     border-radius: 50%;
     background-color: #6f8aa762;
@@ -50,7 +49,7 @@ ul {
     border: 1px solid black;
     border-radius: 0.5rem;
 
-    font-size: clamp(14px, 2.5vw, 24px); /* skaleeruv, aga piiridega */
+    font-size: clamp(14px, 2.5vw, 24px); 
     padding: clamp(6px, 1vw, 12px) clamp(10px, 2vw, 20px);
     box-shadow: 1px 1px 2px rgb(53, 52, 52);
     
