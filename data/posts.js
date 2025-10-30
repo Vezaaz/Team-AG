@@ -1,23 +1,24 @@
 
 // ONLINE JSON FETCH 
-
-// const url = 'https://api.jsonsilo.com/b7fd3d09-6c98-431a-a32e-a51837e993df';
-// const headers = {
-//     'X-SILO-KEY': 'YOUR_API_KEY',
-//     'Content-Type': 'application/json'
-// };
-
-// axios.get(url, { headers: headers })
-//   .then(response => {
-//     const posts = response.data.posts;
-//     displayPosts(posts);
-//   })
-//   .catch(error => {
-//     console.error('There was an error with the request:', error);
-//   });
-
+/*
+ const url = 'https://api.jsonsilo.com/demo/320d6c8f-6851-413e-b283-af79a7e2f0df';
+  
+ const headers = {
+    'X-SILO-KEY': 'YOUR_OWN_API_KEY',
+    'Content-Type': 'application/json'
+  };
+ axios.get(url, { headers: headers })
+   .then(response => {
+     const posts = response.data.posts;
+     displayPosts(posts);
+   })
+   .catch(error => {
+     console.error('There was an error with the request:', error);
+   });
+*/
 
 // LOCAL JSON FETCH
+
 fetch("/data/posts.json")
   .then(response => {
     if (!response.ok) {
@@ -31,6 +32,7 @@ fetch("/data/posts.json")
   .catch(error => {
     console.error("Error fetching local posts:", error);
   });
+  
 
 
 
