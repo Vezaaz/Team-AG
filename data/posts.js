@@ -19,7 +19,7 @@
 
 // LOCAL JSON FETCH
 
-fetch("/data/posts.json")
+fetch("../../data/posts.json")
   .then(response => {
     if (!response.ok) {
       throw new Error("Failed to fetch local JSON: " + response.status);
