@@ -1,7 +1,7 @@
 
 // ONLINE JSON FETCH 
 /*
- const url = 'https://api.jsonsilo.com/demo/320d6c8f-6851-413e-b283-af79a7e2f0df';
+ const url = 'https://api.jsonsilo.com/public/6f0ecc7b-dc11-4a99-86d5-6caf51a6de9e';
   
  const headers = {
     'X-SILO-KEY': 'YOUR_OWN_API_KEY',
