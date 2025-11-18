@@ -1,0 +1,96 @@
+<template>
+    <div class="login-container">
+    <h3>Welcome to PostIt</h3>
+    <a class="create" href="#">Create an account</a>
+    <p>or</p>
+    <p>Please log in</p>
+
+    <form @submit.prevent="login">
+      <input type="email" name="email" placeholder="Email" required>
+      <input type="password" placeholder="Password" required>
+      <button id="login-button" type="submit">Log in</button>
+    </form>
+
+    <a href="#">Forgot password</a>
+  </div>
+</template>
+
+<script setup>
+function login() {
+  alert("Log in clicked!")
+}
+</script>
+
+<style scoped>
+body {
+    display: flex;            
+    min-height: 90vh;
+    background: #f2f2f2;
+    flex-direction: column;
+}
+
+.login-container {    
+    margin: 10px auto;
+    margin-top: 45px;                    
+    background-color: lightgray;
+    padding: 30px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 300px;
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    box-shadow: 0px 0px 4px rgb(53, 52, 52);
+
+}
+
+.login-container h1,
+.login-container p,
+.login-container a {
+    margin: 0;
+}
+
+.login-container form {                        /* Descendant Selector */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.login-container input,
+.login-container button {                      
+    padding: 8px;
+    margin-top: 10px;
+}
+
+form + a {                                      /* Adjacent Sibling Selector */
+    padding-top: 10px;
+}
+
+#login-button {                                 /* ID selector */
+    background-color: rgb(18, 75, 162);
+    color: #f2f2f2;
+    font-weight: 700;
+    font-size: 16px;
+    border: black;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+#login-button:hover {                            /* Pseudo-class */
+    background-color: rgb(8, 49, 112);
+}
+
+h3 ~ a {                                         /* General Sibling Selector */
+    text-decoration: none;
+    color: rgb(18, 75, 162);
+    font-weight: bold;
+}
+
+div > h3 {                                       /* Child Selector */
+    font-size: x-large;
+}
+</style>
