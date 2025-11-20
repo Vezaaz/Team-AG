@@ -25,12 +25,15 @@ export default {
 
 <style>
 #app {
-  min-height: 100vh;
+  min-height: 50vh;
   display: flex;
   flex-direction: column;
 }
 
 .main-content {
   flex: 1;
+  display: flex;
+  flex-direction: column;
+  background: #f2f2f2;
 }
 </style>

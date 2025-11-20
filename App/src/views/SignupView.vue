@@ -75,7 +75,6 @@ body {
     border-radius: 10px;
     width: 100%;
     max-width: 300px;
-    /* Tark lahendus: */
     height: fit-content;  
     min-height: 275px;    
     display: flex;
