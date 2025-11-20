@@ -63,8 +63,6 @@ export default {
 
 <style scoped>
 body {
-    display: flex;            
-    min-height: 90vh;
     background: #f2f2f2;
     flex-direction: column;
 }

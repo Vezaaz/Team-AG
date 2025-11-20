@@ -23,8 +23,8 @@ export default {
 
 <style scoped>
 main {
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 2px;
+  margin-bottom: 2px;
   display: flex;
   justify-content: center;
   align-items: stretch;

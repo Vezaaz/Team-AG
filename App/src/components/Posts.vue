@@ -128,7 +128,7 @@ export default {
 }
 
 .reset-btn {
-  background-color: #4CAF50;
+  background-color: rgb(18, 75, 162);
   color: white;
   border: none;
   padding: 10px 20px;
@@ -140,7 +140,7 @@ export default {
 }
 
 .reset-btn:hover {
-  background-color: #45a049;
+  background-color: rgb(8, 49, 112);
 }
 
 .loading, .error {

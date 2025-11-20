@@ -14,6 +14,9 @@ export default {
 
 <style>
 .footer {
+  width: 95%;
+  max-width: 2000px;
+  margin: 0 auto;
   background-color: lightgrey;
   color: rgb(18, 75, 162);
   text-align: center;
