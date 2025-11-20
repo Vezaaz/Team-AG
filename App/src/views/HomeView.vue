@@ -7,10 +7,6 @@
       
       <aside class="right-main"></aside>
     </main>
-
-    <footer id="footer-box">
-      <p>Footer component</p>
-    </footer>
   </div>
 </template>
 
@@ -41,13 +37,6 @@ main {
   min-width: 80px;
   flex: 0 1 200px;
   background-color: lightgray;
-  border-radius: 15px;
-}
-
-#footer-box {
-  text-align: center;
-  background-color: lightgray;
-  min-height: 18vh;
   border-radius: 15px;
 }
 
