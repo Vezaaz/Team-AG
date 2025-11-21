@@ -21,15 +21,15 @@ export default {
 }
 </script>
 
-<style scoped>
+<style>
+
 main {
-  margin-top: 2px;
-  margin-bottom: 2px;
+  width: 100%;
   display: flex;
-  justify-content: center;
-  align-items: stretch;
+  justify-content: space-between;
   background: #f2f2f2;
   gap: 20px;
+  margin: 0;
 }
 
 .left-main, .right-main {
@@ -48,8 +48,7 @@ main {
   }
 
   .left-main, .right-main {
-    flex: 1 1 50px;
-    min-width: 40px;
+    display: none;
   }
 }
 </style>

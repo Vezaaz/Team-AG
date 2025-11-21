@@ -22,10 +22,10 @@
       >
 
       <p class="post-text">{{ post.text }}</p>
-      
-      <button class="like-btn" @click="likePost(post.id)">
-        👍 {{ post.likes }} likes
-      </button>
+
+      <button class = "like-btn" @click="likePost(post.id)">👍</button>
+
+      <span class = "like-text">{{ post.likes }} likes</span>
     </div>
 
     <button class="reset-btn" @click="resetLikes">Reset likes</button>
@@ -123,6 +123,12 @@ export default {
   font-size: 20px;
 }
 
+.like-text {
+  color: black;
+  font: bold;
+  font-size: 17px;
+}
+
 .like-btn:hover {
   transform: scale(1.3);
 }
@@ -152,4 +158,11 @@ export default {
 .error {
   color: red;
 }
+
+@media (max-width: 600px) {
+  .like-btn:hover {
+    transform: none !important;
+  }
+}
+
 </style>

@@ -20,7 +20,7 @@ export default {
   background-color: lightgrey;
   color: rgb(18, 75, 162);
   text-align: center;
-  padding: 20px;
+  padding: 25px;
   margin-top: auto;
   border-radius: 15px;
 }

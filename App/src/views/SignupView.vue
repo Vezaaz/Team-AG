@@ -69,14 +69,13 @@ body {
 
 .signup-container {    
     margin: 10px auto;
-    margin-top: 45px;                    
+    margin-top: 35px;                    
     background-color: lightgray;
     padding: 30px;
     border-radius: 10px;
     width: 100%;
     max-width: 300px;
     height: fit-content;  
-    min-height: 275px;    
     display: flex;
     box-sizing: border-box;
     flex-direction: column;
