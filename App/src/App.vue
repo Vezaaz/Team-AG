@@ -25,7 +25,7 @@ export default {
 
 <style>
 #app {
-  min-height: 50vh;
+  min-height: 77vh;
   display: flex;
   flex-direction: column;
 }
